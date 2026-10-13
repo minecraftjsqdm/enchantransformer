@@ -1,0 +1,14 @@
+{
+  "block.enchantransformer.enchant_transformer": "附魔转移台",
+  "gui.enchantransformer.button.a": "转移到 A",
+  "gui.enchantransformer.button.b": "转移到 B",
+  "gui.enchantransformer.no_enchantment": "无可转移附魔",
+  "gui.enchantransformer.cost": "需 %s 级",
+  "gui.enchantransformer.reason.no_input": "输入槽为空",
+  "gui.enchantransformer.reason.no_receiver": "接收槽为空",
+  "gui.enchantransformer.reason.no_enchantment": "没有可转移的附魔了",
+  "gui.enchantransformer.reason.insufficient_level": "经验等级不足",
+  "gui.enchantransformer.reason.same_or_higher": "接收方已有同级或更高的该附魔",
+  "gui.enchantransformer.reason.not_enchantable": "接收物不可附魔",
+  "gui.enchantransformer.reason.incompatible": "与接收方已有附魔互斥"
+}

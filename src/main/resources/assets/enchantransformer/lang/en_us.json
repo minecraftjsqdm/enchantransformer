@@ -1,0 +1,14 @@
+{
+  "block.enchantransformer.enchant_transformer": "Enchantment Transfuser",
+  "gui.enchantransformer.button.a": "Transfer to A",
+  "gui.enchantransformer.button.b": "Transfer to B",
+  "gui.enchantransformer.no_enchantment": "Nothing to transfer",
+  "gui.enchantransformer.cost": "Costs %s levels",
+  "gui.enchantransformer.reason.no_input": "Input slot is empty",
+  "gui.enchantransformer.reason.no_receiver": "Receiver slot is empty",
+  "gui.enchantransformer.reason.no_enchantment": "Nothing left to transfer",
+  "gui.enchantransformer.reason.insufficient_level": "Not enough experience levels",
+  "gui.enchantransformer.reason.same_or_higher": "Receiver already has this enchantment at the same or a higher level",
+  "gui.enchantransformer.reason.not_enchantable": "Receiver cannot take enchantments",
+  "gui.enchantransformer.reason.incompatible": "Conflicts with an enchantment already on the receiver"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " N ",
+    "OEO",
+    "OOO"
+  ],
+  "key": {
+    "N": { "item": "minecraft:netherite_ingot" },
+    "O": { "item": "minecraft:obsidian" },
+    "E": { "item": "minecraft:enchanting_table" }
+  },
+  "result": {
+    "id": "enchantransformer:enchant_transformer",
+    "count": 1
+  }
+}

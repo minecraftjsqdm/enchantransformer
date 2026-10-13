@@ -1,0 +1,51 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "enchantransformer:block/enchant_transformer_side",
+    "top": "enchantransformer:block/enchant_transformer_top",
+    "side": "enchantransformer:block/enchant_transformer_side",
+    "bottom": "minecraft:block/enchanting_table_bottom",
+    "metal": "enchantransformer:block/enchant_transformer_bookend"
+  },
+  "elements": [
+    {
+      "name": "base",
+      "from": [0, 0, 0],
+      "to": [16, 8, 16],
+      "faces": {
+        "up": { "texture": "#top", "uv": [0, 0, 16, 16] },
+        "down": { "texture": "#bottom", "uv": [0, 0, 16, 16] },
+        "north": { "texture": "#side", "uv": [0, 4, 16, 12] },
+        "south": { "texture": "#side", "uv": [0, 4, 16, 12] },
+        "east": { "texture": "#side", "uv": [0, 4, 16, 12] },
+        "west": { "texture": "#side", "uv": [0, 4, 16, 12] }
+      }
+    },
+    {
+      "name": "bookend_plate",
+      "from": [1.6, 8, 13.5],
+      "to": [14.4, 13.6, 14.7],
+      "faces": {
+        "up": { "texture": "#metal", "uv": [7.5, 0, 14, 1] },
+        "down": { "texture": "#metal", "uv": [7.5, 1, 14, 2] },
+        "north": { "texture": "#metal", "uv": [0, 0, 6.5, 6] },
+        "south": { "texture": "#metal", "uv": [0, 0, 6.5, 6] },
+        "east": { "texture": "#metal", "uv": [6.5, 0, 7.5, 6] },
+        "west": { "texture": "#metal", "uv": [6.5, 0, 7.5, 6] }
+      }
+    },
+    {
+      "name": "bookend_foot",
+      "from": [1.6, 8, 12.4],
+      "to": [14.4, 9.2, 13.5],
+      "faces": {
+        "up": { "texture": "#metal", "uv": [7.5, 6, 14, 7] },
+        "down": { "texture": "#metal", "uv": [7.5, 7, 14, 8] },
+        "north": { "texture": "#metal", "uv": [0, 6, 6.5, 9] },
+        "south": { "texture": "#metal", "uv": [0, 6, 6.5, 9] },
+        "east": { "texture": "#metal", "uv": [6.5, 6, 7.5, 9] },
+        "west": { "texture": "#metal", "uv": [6.5, 6, 7.5, 9] }
+      }
+    }
+  ]
+}

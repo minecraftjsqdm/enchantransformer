@@ -1,0 +1,71 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - enchantransformer",
+        "order": 0
+      },
+      "projectName": "enchantransformer",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\Administrator\\Desktop\\THEDIMS\\mod-enchantransformer\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\Administrator\\Desktop\\THEDIMS\\mod-enchantransformer\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003denchantransformer%%C:\\Users\\Administrator\\Desktop\\THEDIMS\\mod-enchantransformer\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Data",
+      "presentation": {
+        "group": "Mod Development - enchantransformer",
+        "order": 1
+      },
+      "projectName": "enchantransformer",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\Administrator\\Desktop\\THEDIMS\\mod-enchantransformer\\build\\moddev\\dataRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\Administrator\\Desktop\\THEDIMS\\mod-enchantransformer\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003denchantransformer%%C:\\Users\\Administrator\\Desktop\\THEDIMS\\mod-enchantransformer\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - enchantransformer",
+        "order": 2
+      },
+      "projectName": "enchantransformer",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\Administrator\\Desktop\\THEDIMS\\mod-enchantransformer\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\Administrator\\Desktop\\THEDIMS\\mod-enchantransformer\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003denchantransformer%%C:\\Users\\Administrator\\Desktop\\THEDIMS\\mod-enchantransformer\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {},
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}

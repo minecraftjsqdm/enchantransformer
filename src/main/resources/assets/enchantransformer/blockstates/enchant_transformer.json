@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "enchantransformer:block/enchant_transformer"
+    }
+  }
+}
